@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+
+}
+
+.servs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.heading h2 {
+    font-size: 40px;
+}
+
+.card {
+    width: 14rem;
+    margin: 25px;
+}
+
+#digital {
+    background-color: #FA8352;
+    height: auto;
+    margin-top: 8%;
+}
+
+.digital {
+    background-color: #F9F9F9;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: -80px;
+}
+
+.digital2 {
+    margin-top: -80px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+}
+
+.netcoder {
+    text-decoration: underline;
+    text-decoration-color: #FA8352;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 1.5px;
+}
+
+ul li {
+    padding: 9px;
+    color: #474747;
+}
+
+ul {
+    padding-top: 50px;
+}
+
+.outline {
+    color: white;
+    background-color: #FA8352;
+    padding: 7px;
+    width: 250px;
+    border-radius: 15px;
+    margin-top: -75px;
+}
+
+.courses {
+    border-top: 5px solid #FA8352;
+    border-left: 5px solid #FA8352;
+}
+
+#eligibility {
+    background-color: #FA8352;
+    margin-top: 7%;
+}
+
+form {
+    background-color: #474747;
+    border-radius: 20px 20px 0 0;
+    height: 550px;
+    width: 32%;
+    position: absolute;
+    left: 2%;
+    bottom: 0%;
+}
+
+input[type="text"] {
+    background-color: #474747;
+    color: #EBF1F1;
+}
+
+.form {
+    background-color: #fffdfd;
+    height: 420px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    margin-top: 10%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+input[type="book"] {
+    background-color: #FA8352;
+    border: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.imgg {
+    position: absolute;
+    right: 8%;
+    margin-top: -80px;
+}
+
+.logo img {
+    width: 350px;
+    height: auto;
+}
+
+.get {
+    background-color: #474747;
+    width: 79.5%;
+    margin-top: 5%;
+    clip-path: polygon(0 0, 94% 0, 100% 100%, 0% 100%);
+}
+
+.orange {
+    background-color: #FA8352;
+    width: 100%;
+    margin-top: 10px;
+    padding: 25px 0 30px 100px;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.orange img {
+    margin: 10px;
+}
+
+.get h2 {
+    margin-left: 80px;
+    color: #FA8352;
+    padding: 10px;
+    margin-left: 15%;
+}
+
+.orange h4 {
+    margin: 7px 0 0 1px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.icons {
+    font-weight: bold;
+    color: #474747;
+    font-size: 24px;
+    margin: 20px 0 0 16px;
+    word-spacing: 5px;
+    display: flex;
+}
+
+.imgg3 img {
+    width: 360px;
+    height: auto;
+}
+
+.border {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.toplogo img {
+    height: auto;
+    width: 180px;
+}
+
+.netcoder {
+    color: #474747;
+    font-size: 34px;
+}
+
+@media screen and (min-width:767px) and (max-width:992px) {
+    .form {
+        box-shadow: none;
+    }
+
+    .imgg {
+        width: 350px;
+        margin-top: 0;
+        right: 5%;
+    }
+
+    form {
+        height: auto;
+        width: 50%;
+    }
+
+    .form {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:767px) {
+    .form {
+        box-shadow: none;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .imgg {
+        position: relative;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        right: 10%;
+    }
+
+    form {
+        position: relative;
+        left: 0;
+        height: auto;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+    .orange {
+        padding: 20px 0 20px 10px;
+    }
+
+    .get h2 {
+        margin-left: 10%;
+    }
+
+    .heading h2 {
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imgg3 img {
+        width: 300px;
+    }
+
+    .get {
+        width: 80%;
+    }
+
+    .get h2 {
+        margin-left: 5%;
+        font-size: 16px;
+    }
+
+    .form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .toplogo img {
+        width: 120px;
+    }
+    .imgg {
+        right: 0%;
+    }
+    .netcoder{
+        font-size: 24px;
+    }
+    .imgg3 img{
+        display: none;
+    }
+    .get{
+        clip-path: none;
+        width: 100%;
+        text-align: center;
+    }
+    .orange{
+        clip-path: none;
+    }
+    .orange h4{
+       font-size: 20px;
+       margin-top: 0;
+    }
+    .orange img{
+        margin-top: 0px;
+    }
+
+
+}
